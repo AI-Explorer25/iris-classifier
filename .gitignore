@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Anaconda project metadata
+anaconda_projects/
+
+# VS Code settings 
+.vscode/
+
+# Jupyter notebook autosave files
+*.ipynb_save
