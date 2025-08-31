@@ -21,7 +21,7 @@ This project demonstrates a complete ML workflow in Python with reproducible res
 ## Quick start
 ```bash
 # Clone the repository
-git clone https://github.com/<YOUR_USERNAME>/iris-classifier.git
+git clone https://github.com/AI-Explorer25/iris-classifier.git
 cd iris-classifier
 
 # Create a virtual environment
