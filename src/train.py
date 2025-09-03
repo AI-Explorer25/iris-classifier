@@ -1,5 +1,6 @@
 # src/train.py
 import os
+import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
@@ -105,8 +106,11 @@ def main(test_size=0.2, random_state=42, save_outputs=True, print_metrics=False)
         plt.savefig("outputs/feature_histograms.png")
         plt.close()
 
+        # Save trained model
+        joblib.dump(model, "outputs/iris_model.joblib")
+
         if print_metrics:
-            print("\nAll plots saved to 'outputs/' folder.")
+            print("\nAll plots and model saved to 'outputs/' folder.")
 
     return acc
 
